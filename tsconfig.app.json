@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "strict": true,
+    "moduleResolution": "bundler",
+    "isolatedModules": true,
+    "noEmit": true,
+
+    /* Add these two lines for shadcn alias support */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src"]
+}
